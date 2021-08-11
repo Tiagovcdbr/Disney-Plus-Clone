@@ -145,13 +145,13 @@ Y.
 
 ### Esse erro é simples de arrumar, só precisamos adicionar uma linha em branco após o require do restify. Lembrar de fazer isso vai ser chato, muito chato, mas não se preocupe! É aqui que entra a magia do Prettier. Agora vamos partir para a configuração do Prettier que terá a responsabilidade de ler todas as configurações que colocarmos para o ESLint e realizar as alterações necessárias uma vez que salvamos os arquivos que estamos editando. Por favor, não faça essas correções manualmente, isso só fará você sofrer e em algum momento desligará o ESLint por raiva a ele. e isso atrapalha muito e se torna exaustivo....
 
-## Com as perguntas respondidas e as depências instaladas repare no arquivo package-lock.json delete ele e instale as depências novamente agora com as extensões com o comando
+### Com as perguntas respondidas e as depências instaladas repare no arquivo package-lock.json delete ele e instale as depências novamente agora com as extensões com o comando
 =====================================================
-npm i prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D
+ ### npm i prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D
 
 ou
 
-npm i prettier eslint-config-prettier eslint-plugin-prettier
+### npm i prettier eslint-config-prettier eslint-plugin-prettier
 =====================================================
 ### Repare que vai ser criado um arquivo com o nome de .eslintrc.js
 abra esse arquivo e substitua tudo dentro do arquivo pré configurado por essa configuração:
