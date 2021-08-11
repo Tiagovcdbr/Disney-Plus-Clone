@@ -156,34 +156,8 @@ npm i prettier eslint-config-prettier eslint-plugin-prettier
 ### Repare que vai ser criado um arquivo com o nome de .eslintrc.js
 abra esse arquivo e substitua tudo dentro do arquivo pré configurado por essa configuração:
 
-module.exports = {
-  env: {
-    browser: true,
-    es6: true
-  },
-  extends: ["airbnb", "prettier", "prettier/react"],
-  globals: {
-    Atomics: "readonly",
-    SharedArrayBuffer: "readonly",
-    __DEV__: 'readonly'
-  },
-  parser: "babel-eslint",
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true
-    },
-    ecmaVersion: 2018,
-    sourceType: "module"
-  },
-  plugins: ["react", "prettier"],
-  rules: {
-    "prettier/prettier": "error",
-    "react/jsx-filename-extension": ["warn", { extensions: [".jsx", ".js"] }],
-    "import/prefer-default-export": "off",
-    "no-param-reassign": "off",
-    "no-console": ["error", { allow: ["tron"] }]
-  }
-}
+![config eslint](https://user-images.githubusercontent.com/78483210/129104945-95082de3-5d46-45aa-92f9-db39cdb92460.png)
+
 =====================================================
 ### Após esses passos note qe seu código vai estar arrumado e não apontando os erros pois o Prettier e o eslint estão trabalhando em conjunto, ma isso não impede do vscode identificar os erros que não tem como ser evitados mas com essa configuração vai facilitar muito na hora de você codar.
 
