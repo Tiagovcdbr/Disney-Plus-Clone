@@ -30,9 +30,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### `npm run eject`
 
 ## Tutorial para instalar o EsLint no projeto e evitar os erros que podem aparecer na hora de codar.
-====================================================
 ### Começando a instalação com o comando npx eslint --init
-
 ### Após a execução do comando, o terminal fará perguntas sobre a configuração do ESLint.
 
 ### Pergunta 1:
@@ -156,6 +154,6 @@ abra esse arquivo e substitua tudo dentro do arquivo pré configurado por essa c
 ![config eslint](https://user-images.githubusercontent.com/78483210/129104945-95082de3-5d46-45aa-92f9-db39cdb92460.png)
 
 =====================================================
-#### Após esses passos note qe seu código vai estar arrumado e não apontando os erros pois o Prettier e o eslint estão trabalhando em conjunto, ma isso não impede do vscode identificar os erros que não tem como ser evitados mas com essa configuração vai facilitar muito na hora de você codar.
+#### Após esses passos note que seu código vai estar arrumado e não apontando os erros pois o Prettier e o eslint estão trabalhando em conjunto, ma isso não impede do vscode identificar os erros que não tem como ser evitados mas com essa configuração vai facilitar muito na hora de você codar.
 
 ## Happy Hacking !!!
