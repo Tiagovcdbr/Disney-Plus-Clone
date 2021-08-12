@@ -1,6 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -28,11 +28,9 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
-
-## Tutorial para instalar o EsLint no projeto e evitar os erros que podem aparce na hora de codar.
-====================================================
+=====================================================
+## Tutorial para instalar o EsLint no projeto e evitar os erros que podem aparecer na hora de codar.
 ### Começando a instalação com o comando npx eslint --init
-
 ### Após a execução do comando, o terminal fará perguntas sobre a configuração do ESLint.
 
 ### Pergunta 1:
@@ -139,52 +137,23 @@ Y.
 =====================================================
 ```
 =====================================================
-### Note que Agora se você abrir o seu arquivo index.js ou outro arquivo vai se deparar com algo não muito agradável, um código cheio de sublinhados vermelhos:
+#### Note que Agora se você abrir o seu arquivo index.js ou outro arquivo vai se deparar com algo não muito agradável, um código cheio de sublinhados vermelhos
+Se parar o mouse sobre a const que está na linha 1, aparecerá uma breve descrição do erro que o ESLint achou em seu código, Esse erro é simples de arrumar, só precisamos adicionar uma linha em branco após o require do restify. Lembrar de fazer isso vai ser chato, muito chato, mas não se preocupe! É aqui que entra a magia do Prettier. Agora vamos partir para a configuração do Prettier que terá a responsabilidade de ler todas as configurações que colocarmos para o ESLint e realizar as alterações necessárias uma vez que salvamos os arquivos que estamos editando. Por favor, não faça essas correções manualmente, isso só fará você sofrer e em algum momento desligará o ESLint por raiva a ele. e isso atrapalha muito e se torna exaustivo....
 
-### Se parar o mouse sobre a const que está na linha 1, aparecerá uma breve descrição do erro que o ESLint achou em seu código,
-
-### Esse erro é simples de arrumar, só precisamos adicionar uma linha em branco após o require do restify. Lembrar de fazer isso vai ser chato, muito chato, mas não se preocupe! É aqui que entra a magia do Prettier. Agora vamos partir para a configuração do Prettier que terá a responsabilidade de ler todas as configurações que colocarmos para o ESLint e realizar as alterações necessárias uma vez que salvamos os arquivos que estamos editando. Por favor, não faça essas correções manualmente, isso só fará você sofrer e em algum momento desligará o ESLint por raiva a ele. e isso atrapalha muito e se torna exaustivo....
-
-## Com as perguntas respondidas e as depências instaladas repare no arquivo package-lock.json delete ele e instale as depências novamente agora com as extensões com o comando
+#### Com as perguntas respondidas e as depências instaladas repare no arquivo package-lock.json delete ele e instale as depências novamente agora com as extensões com o comando
 =====================================================
-npm i prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D
+#### npm i prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D
 
-ou
+#### ou
 
-npm i prettier eslint-config-prettier eslint-plugin-prettier
+#### npm i prettier eslint-config-prettier eslint-plugin-prettier
 =====================================================
 ### Repare que vai ser criado um arquivo com o nome de .eslintrc.js
 abra esse arquivo e substitua tudo dentro do arquivo pré configurado por essa configuração:
 
-module.exports = {
-  env: {
-    browser: true,
-    es6: true
-  },
-  extends: ["airbnb", "prettier", "prettier/react"],
-  globals: {
-    Atomics: "readonly",
-    SharedArrayBuffer: "readonly",
-    __DEV__: 'readonly'
-  },
-  parser: "babel-eslint",
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true
-    },
-    ecmaVersion: 2018,
-    sourceType: "module"
-  },
-  plugins: ["react", "prettier"],
-  rules: {
-    "prettier/prettier": "error",
-    "react/jsx-filename-extension": ["warn", { extensions: [".jsx", ".js"] }],
-    "import/prefer-default-export": "off",
-    "no-param-reassign": "off",
-    "no-console": ["error", { allow: ["tron"] }]
-  }
-}
+![config eslint](https://user-images.githubusercontent.com/78483210/129104945-95082de3-5d46-45aa-92f9-db39cdb92460.png)
+
 =====================================================
-### Após esses passos note qe seu código vai estar arrumado e não apontando os erros pois o Prettier e o eslint estão trabalhando em conjunto, ma isso não impede do vscode identificar os erros que não tem como ser evitados mas com essa configuração vai facilitar muito na hora de você codar.
+#### Após esses passos note que seu código vai estar arrumado e não apontando os erros pois o Prettier e o eslint estão trabalhando em conjunto, ma isso não impede do vscode identificar os erros que não tem como ser evitados mas com essa configuração vai facilitar muito na hora de você codar.
 
 ## Happy Hacking !!!
