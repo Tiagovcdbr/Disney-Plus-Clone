@@ -20,14 +20,21 @@ function Detail() {
                     <span>Trailer</span>
                 </TrailerButton>
                 <AddButton>
-                    <img src="" alt="temporaria" />
-                    <span></span>
+                    <span>+</span>
                 </AddButton>
                 <GroupWatchButton>
-                    <img src="" alt="temporaria" />
+                    <img src="/images/group-icon.png" alt="temporaria" />
                     <span></span>
                 </GroupWatchButton>
             </Controls>
+            <SubTitle>
+                2018 . 7m . Família, Fantasia, Crianças, Animação
+            </SubTitle>
+            <Description>
+                Sofrendo com a ausência do filho, uma mãe volta a ver sentido na vida quando um dos bolinhos que preparou ganha vida.
+                Ela então começa a cuidar da criatura dando-lhe todo o amor e carinho.
+                Mas, de forma inesperada, ele cresce e ganha independência, deixando sua criadora triste mais uma vez.
+            </Description>
         </Container>
     )
 }
@@ -74,14 +81,16 @@ const ImageTitle = styled.div`
 
 const Controls = styled.div`
     display: flex;
+    align-items: center;
     
 `
-// configurando o PlayButton
-const PlayButton = styled.button`
-    border-radius: 4px;
-    font-size: 15px;
-    padding: 0px 24px;
-    margin-right: 22px;
+// configurando o PlayButton e replicando a configuração nos botões abaixo ↓
+//                                                                         ↓
+const PlayButton = styled.button`                                          
+    border-radius: 4px;                                                    
+    font-size: 15px;                                                       
+    padding: 0px 24px;                                                     
+    margin-right: 22px;                                                    
     display: flex;
     align-items: center;
     height: 56px;
@@ -94,16 +103,52 @@ const PlayButton = styled.button`
         background: rgb(198, 198, 198);
     }
 `
-// configurando o TrailerButton
+// configurando o TrailerButton e utilizando a importando a configuração do playbutton com o styled(PlayButton) ↖
+// que no caso serviu para usar a mesma configuração do PlayButton sem precisar fazer tudo novamente
 const TrailerButton = styled(PlayButton)`
     background: rgb(0, 0, 0, 0.3);
     border: 1px solid rgba(249, 249, 249);
+    color: rgb(249, 249, 249);
+    text-transform: uppercase;
 `
-
+// configurando o Botão Add criado com o sinal de + e ajustando seu tamanho espaço e dimensão e replicando abaixo ↙
 const AddButton = styled.button`
+    margin-right: 16px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+
+    span {
+        font-size: 30px;
+        color: white;
+    }
+
 
 `
+// Aplicando a mesma configuração do AddButton utilizando styled(AddButton) ↖
+const GroupWatchButton = styled(AddButton)`
+    background: rgb(0, 0, 0);
 
-const GroupWatchButton = styled.button`
+`
+// Configurando o Subtitulo
+const SubTitle = styled.div`
+    color: rgb(249, 249, 249);
+    font-size: 15px;
+    min-height: 20px;
+    margin-top: 26px;
+
+`
+// Configurando a Descrição
+const Description = styled.div`
+    line-height: 1.4;
+    font-size: 20px;
+    margin-top: 16px;
+    color: rgb(249, 249, 249);
 
 `
