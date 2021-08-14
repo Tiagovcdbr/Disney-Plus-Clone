@@ -8,7 +8,7 @@ const Trending = (props) => {
 
   return (
     <Container>
-      <h4>Trending</h4>
+      <h4>Tendências</h4>
       <Content>
         {movies &&
           movies.map((movie, key) => (

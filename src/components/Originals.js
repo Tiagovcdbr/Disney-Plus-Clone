@@ -8,7 +8,7 @@ const Originals = (props) => {
 
   return (
     <Container>
-      <h4>Originals</h4>
+      <h4>Originais</h4>
       <Content>
         {movies &&
           movies.map((movie, key) => (

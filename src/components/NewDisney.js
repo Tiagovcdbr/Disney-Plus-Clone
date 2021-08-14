@@ -8,7 +8,7 @@ const NewDisney = (props) => {
 
   return (
     <Container>
-      <h4>New to Disney+</h4>
+      <h4>Novos no Disney+</h4>
       <Content>
         {movies &&
           movies.map((movie, key) => (

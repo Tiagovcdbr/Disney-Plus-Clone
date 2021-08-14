@@ -63,29 +63,29 @@ const Header = (props) => {
       </Logo>
 
       {!userName ? (
-        <Login onClick={handleAuth}>Login</Login>
+        <Login onClick={handleAuth}>Logar</Login>
       ) : (
         <>
           <NavMenu>
             <a href="/home">
               <img src="/images/home-icon.svg" alt="HOME" />
-              <span>HOME</span>
+              <span>PRINCIPAL</span>
             </a>
             <a href="/">
               <img src="/images/search-icon.svg" alt="SEARCH" />
-              <span>SEARCH</span>
+              <span>PROCURAR</span>
             </a>
             <a>
               <img src="/images/watchlist-icon.svg" alt="WATCHLIST" />
-              <span>WATCHLIST</span>
+              <span>CRIAR LISTA</span>
             </a>
             <a>
               <img src="/images/original-icon.svg" alt="ORIGINALS" />
-              <span>ORIGINALS</span>
+              <span>ORIGINAIS</span>
             </a>
             <a>
               <img src="/images/movie-icon.svg" alt="MOVIES" />
-              <span>MOVIES</span>
+              <span>FILMES</span>
             </a>
             <a>
               <img src="/images/series-icon.svg" alt="SERIES" />
@@ -95,7 +95,7 @@ const Header = (props) => {
           <SignOut>
             <UserImg src={userPhoto} alt={userName} />
             <DropDown>
-              <span onClick={handleAuth}>Sign out</span>
+              <span onClick={handleAuth}>Deslogar</span>
             </DropDown>
           </SignOut>
         </>
