@@ -16,7 +16,7 @@ const ImgSlider = (props) => {
     <Carousel {...settings}>
       <Wrap>
         <a>
-          <img src="/images/slider-badging.jpg" alt="" />
+          <img src="/images/slider-vingadores-ultimato.jpg" alt="" />
         </a>
       </Wrap>
 
@@ -34,7 +34,31 @@ const ImgSlider = (props) => {
 
       <Wrap>
         <a>
-          <img src="/images/slider-scales.jpg" alt="" />
+          <img src="/images/slider-loki.jpg" alt="" />
+        </a>
+      </Wrap>
+
+      <Wrap>
+        <a>
+          <img src="/images/slider-cruella2.jpg" alt="" />
+        </a>
+      </Wrap>
+
+      <Wrap>
+        <a>
+          <img src="/images/slider-rei-leão.jpg" alt="" />
+        </a>
+      </Wrap>
+
+      <Wrap>
+        <a>
+          <img src="/images/slider-star-wars.jpg" alt="" />
+        </a>
+      </Wrap>
+
+      <Wrap>
+        <a>
+          <img src="/images/slider-raya.jpg" alt="" />
         </a>
       </Wrap>
     </Carousel>

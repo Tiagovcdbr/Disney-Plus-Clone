@@ -11,7 +11,7 @@ const NewDisney = (props) => {
       <h4>Novos no Disney+</h4>
       <Content>
         {movies &&
-          movies.map((movie, key) => (
+          movies.map((movie, key,) => (
             <Wrap key={key}>
               {movie.id}
               <Link to={`/detail/` + movie.id}>
