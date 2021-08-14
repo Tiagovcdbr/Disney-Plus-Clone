@@ -6,7 +6,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### `npm run eject`
 
 =====================================================
-## Tutorial para instalar o EsLint no projeto e evitar os erros que podem aparecer na hora de codar.
+### Tutorial para instalar o EsLint no projeto e evitar os erros que podem aparecer na hora de codar.
 ### Começando a instalação com o comando npx eslint --init
 ### Após a execução do comando, o terminal fará perguntas sobre a configuração do ESLint.
 ### Pergunta 1:
