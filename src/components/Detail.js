@@ -58,7 +58,7 @@ const Detail = (props) => {
     </Container>
   );
 };
-
+// =================== Inicio da estilização Detail ===================
 const Container = styled.div`
   position: relative;
   min-height: calc(100vh-250px);
@@ -217,5 +217,5 @@ const Description = styled.div`
     font-size: 14px;
   }
 `;
-
+// =================== Fim da estilização Detail ===================
 export default Detail;
