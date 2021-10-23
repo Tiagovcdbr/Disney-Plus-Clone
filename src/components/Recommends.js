@@ -24,7 +24,7 @@ const Recommends = (props) => {
     </Container>
   );
 };
-
+// =================== Inicio da estilização Recommends ===================
 const Container = styled.div`
   padding: 0 0 26px;
 `;
@@ -68,5 +68,5 @@ const Wrap = styled.div`
     border-color: rgba(249, 249, 249, 0.8);
   }
 `;
-
+// =================== Fim da estilização Recommends ===================
 export default Recommends;

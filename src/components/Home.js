@@ -65,7 +65,7 @@ const Home = (props) => {
     </Container>
   );
 };
-
+// =================== Inicio da estilização Home ===================
 const Container = styled.main`
   position: relative;
   min-height: calc(100vh - 250px);
@@ -83,5 +83,5 @@ const Container = styled.main`
     z-index: -1;
   }
 `;
-
+// =================== Fim da estilização Home ===================
 export default Home;

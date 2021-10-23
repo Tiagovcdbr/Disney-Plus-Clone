@@ -5,6 +5,7 @@ import "./App.css";
 import Home from "./components/Home";
 import Detail from "./components/Detail";
 
+/* // =================== Todos os components utilizados durante o projeto =================== // */
 function App() {
   return (
     <div className="App">

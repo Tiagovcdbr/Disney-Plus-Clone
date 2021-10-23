@@ -17,7 +17,7 @@ const Login = (props) => {
     </Container>
   );
 };
-
+// =================== Inicio da estilização Login ===================
 const Container = styled.section`
   overflow: hidden;
   display: flex;
@@ -100,5 +100,5 @@ const CTALogoTwo = styled.img`
   vertical-align: bottom;
   width: 100%;
 `;
-
+// =================== Fim da estilização Login ===================
 export default Login;

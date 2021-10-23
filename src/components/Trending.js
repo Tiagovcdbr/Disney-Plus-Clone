@@ -23,7 +23,7 @@ const Trending = (props) => {
     </Container>
   );
 };
-
+// =================== Inicio da estilização Trending ===================
 const Container = styled.div`
   padding: 0 0 26px;
 `;
@@ -67,5 +67,5 @@ const Wrap = styled.div`
     border-color: rgba(249, 249, 249, 0.8);
   }
 `;
-
+// =================== Fim da estilização Trending ===================
 export default Trending;

@@ -39,7 +39,7 @@ const Viewers = (props) => {
     </Container>
   );
 };
-
+// =================== Inicio da estilização Viewers ===================
 const Container = styled.div`
   margin-top: 30px;
   padding: 30px 0px 26px;
@@ -92,5 +92,5 @@ const Wrap = styled.div`
     }
   }
 `;
-
+// =================== Fim da estilização Viewers ===================
 export default Viewers;

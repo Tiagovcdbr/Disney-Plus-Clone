@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import styled from "styled-components";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -64,7 +65,7 @@ const ImgSlider = (props) => {
     </Carousel>
   );
 };
-
+// =================== Inicio da estilização ImgSlider ===================
 const Carousel = styled(Slider)`
   margin-top: 20px;
   & > button {
@@ -120,5 +121,5 @@ const Wrap = styled.div`
     }
   }
 `;
-
+// =================== Fim da estilização ImgSlider ===================
 export default ImgSlider;
