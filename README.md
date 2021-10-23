@@ -1,5 +1,7 @@
 # Disney Plus Clone
 
+### Para rodar o projeto faça um fork ou um gitclone mas caso não esteja familiarizado com o GitHub faça o download!!
+### Após isso rode no terminal de sua IDE npm install para instalar as dependências e após serem baixadas rode o projeto com o npm start que provavelmente será na porta 3000.
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
@@ -87,3 +89,33 @@ Se parar o mouse sobre a const que está na linha 1, aparecerá uma breve descri
 
 #### Após esses passos note que seu código vai estar arrumado e não apontando os erros pois o Prettier e o eslint estão trabalhando em conjunto, ma isso não impede do vscode identificar os erros que não tem como ser evitados mas com essa configuração vai facilitar muito na hora de você codar.
 ## Happy Hacking !!!
+
+### Algumas imagens do projeto
+===============================
+![screeen1](https://user-images.githubusercontent.com/78483210/138544759-c569a519-1a1f-474d-9af3-384305f844e8.png)
+
+===============================
+
+![screen2](https://user-images.githubusercontent.com/78483210/138544762-24c8f19e-73a7-474c-9a23-1ba49341a2e0.png)
+
+===============================
+
+![screen3](https://user-images.githubusercontent.com/78483210/138544764-5eb20795-9705-48b9-88d6-c26e2fb9ae99.png)
+
+===============================
+
+![screen4](https://user-images.githubusercontent.com/78483210/138544767-b7422759-5bb3-445a-b693-9c38c0636234.png)
+
+===============================
+
+![screen5](https://user-images.githubusercontent.com/78483210/138544768-63c1bd21-0d5c-4c28-ad36-905b09b9fe04.png)
+
+===============================
+
+![screen6](https://user-images.githubusercontent.com/78483210/138544771-54897c5f-32b6-4ba7-9a49-a18ee18566d5.png)
+
+===============================
+
+![screen7](https://user-images.githubusercontent.com/78483210/138544772-4b975da5-8014-4bf5-8e6b-0ce22f44a54f.png)
+
+
